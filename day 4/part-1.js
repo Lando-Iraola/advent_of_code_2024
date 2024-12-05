@@ -20,13 +20,6 @@ for (let i = 0; i < wordSearch.length; i++) {
   buffArr.push(wordSearch[i]);
 }
 
-const wordLookup = {
-  x: { next: "m" },
-  m: { next: "a" },
-  a: { next: "s" },
-  s: { next: null },
-};
-
 function coordinates(x, y, arr) {
   const puzzleLength = arr[0].length - 1;
   const puzzleHeigth = arr.length - 1;
